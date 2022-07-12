@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif !important;
+}
+
+@media screen and (max-width: 700px) {
+  .sec1 {
+    background-size: 200% !important;
+  }
+  nav ul li a,
+  nav ul li a:visited {
+    background-color: #111 !important;
+    color: #edf0f1 !important;
+  }
+}
+
+.card-login {
+  border-radius: 0px;
+  background: #0f0e17;
+  box-shadow: 5px 5px 11px #198c9a, -5px -5px 11px #27d6ec;
+  color: black !important;
+}
+
+/* From uiverse.io by @adamgiebl */
+.cssbuttons-io {
+  position: relative;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  border-radius: 0.4em;
+  border: none;
+  background: #222 !important;
+  color: ghostwhite !important;
+  overflow: hidden;
+  height: 38px;
+  width: 82px;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+}
+
+#logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+}
+
+#logo:hover {
+  border: 5px solid rgba(0, 0, 0, 0.495);
+}
+
+#side-nav ul li {
+  display: flex;
+  flex-direction: row;
+}
